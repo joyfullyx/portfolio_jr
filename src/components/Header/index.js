@@ -1,9 +1,26 @@
-import React from 'react'
+import React from "react";
+import { Box } from "@material-ui/core";
+import { Container } from "@material-ui/core";
+import { createMuiTheme } from '@material-ui/core/styles';
+import { teal } from '@material-ui/core/colors';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: teal[100],
+    },
+  },
+});
+const color = teal[100]
 
 export default function Header() {
-    return (
-        <div>
-            <h1>Header content goes here</h1>
-        </div>
-    )
+  return (
+    <div>
+      <Container>
+        <Box bgcolor={theme.palette.primary.main} color="error.contrastText" display="flex" justifyContent="center" width="100%" py={56}>
+        <h1>Hello!</h1>
+       </Box>
+      </Container>
+    </div>
+  );
 }
