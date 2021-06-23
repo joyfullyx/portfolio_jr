@@ -7,6 +7,7 @@ export default function Contact() {
   return (
     <div>
       <Box display="flex" justifyContent="center">
+        
         {/* To LinkedIn */}
         <IconButton onClick={() => window.open('https://www.linkedin.com/in/joy-rhee/', '_blank')}>
           <LinkedIn fontSize="large" />
