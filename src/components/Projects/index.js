@@ -9,11 +9,12 @@ import {
   Collapse,
   Container,
   IconButton,
+  Tooltip,
   Typography,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
-import { ExpandMore, GitHub } from "@material-ui/icons";
+import { ExpandMore, GitHub, DoubleArrow } from "@material-ui/icons";
 import data from "../../data/projects.json";
 
 const useStyles = makeStyles((theme) => ({
@@ -83,12 +84,16 @@ export default function Projects(props) {
                     </Typography>
                   </CardContent>
                   <CardActions disableSpacing>
-                    <IconButton aria-label="github repository">
-                      <GitHub />
-                    </IconButton>
-                    <IconButton aria-label="deployed">
-                      <GitHub />
-                    </IconButton>
+                    <Tooltip title="to github repository">
+                      <IconButton aria-label="to github repo">
+                        <GitHub />
+                      </IconButton>
+                    </Tooltip>
+                    <Tooltip title="to deployed site">
+                      <IconButton aria-label="to deployed">
+                        <DoubleArrow />
+                      </IconButton>
+                    </Tooltip>
                     <IconButton
                       className={clsx(classes.expand, {
                         [classes.expandOpen]: expanded,
