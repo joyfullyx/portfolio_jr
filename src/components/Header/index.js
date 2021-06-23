@@ -1,8 +1,8 @@
 import React from "react";
 import { Box } from "@material-ui/core";
 import { Container } from "@material-ui/core";
-import { createMuiTheme } from '@material-ui/core/styles';
-import { teal } from '@material-ui/core/colors';
+import { createMuiTheme } from "@material-ui/core/styles";
+import { teal } from "@material-ui/core/colors";
 
 const theme = createMuiTheme({
   palette: {
@@ -11,15 +11,21 @@ const theme = createMuiTheme({
     },
   },
 });
-const color = teal[100]
 
 export default function Header() {
   return (
     <div>
       <Container>
-        <Box bgcolor={theme.palette.primary.main} color="error.contrastText" display="flex" justifyContent="center" width="100%" py={16}>
-        <h1>Hello!</h1>
-       </Box>
+        <Box
+          bgcolor={theme.palette.primary.main}
+          color="error.contrastText"
+          display="flex"
+          justifyContent="center"
+          width="100%"
+          py={16}
+        >
+          <h1>Hello!</h1>
+        </Box>
       </Container>
     </div>
   );

@@ -7,14 +7,19 @@ export default function Contact() {
   return (
     <div>
       <Box display="flex" justifyContent="center">
-        
         {/* To LinkedIn */}
-        <IconButton onClick={() => window.open('https://www.linkedin.com/in/joy-rhee/', '_blank')}>
+        <IconButton
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/joy-rhee/", "_blank")
+          }
+        >
           <LinkedIn fontSize="large" />
         </IconButton>
 
         {/* To Github */}
-        <IconButton onClick={() => window.open('https://github.com/joyfullyx', '_blank')}>
+        <IconButton
+          onClick={() => window.open("https://github.com/joyfullyx", "_blank")}
+        >
           <GitHub fontSize="large" />
         </IconButton>
 

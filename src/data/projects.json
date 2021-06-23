@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Rally",
+    "technologies": "MERN, React, SQL, Geolocation",
+    "image": "#",
+    "blurb": "Rally is a centralized platform to plan and build trips",
+    "repo": "#",
+    "deployed": "#",
+    "description": "Plan a trip for yourself or with friends. Create multiple trips, itineraries, split costs, and find popular activites near your travel destination."
+  },
+  {
+    "id": 2,
+    "name": "Oui Circle",
+    "technologies": "MongoDB, Geospatial location",
+    "image": "#",
+    "blurb": "Oui Circle is an online community bulletein",
+    "repo": "#",
+    "deployed": "#",
+    "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Oui Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"
+  },
+  {
+    "id": 3,
+    "name": "Vaccine Finder",
+    "technologies": "HTML, CSS, Geolocation",
+    "image": "#",
+    "blurb": "Find a Covid-19 vaccine administrator near you",
+    "repo": "#",
+    "deployed": "#",
+    "description": "Use Vaccine Finder to find the nearest Covid-19 vaccine administrator near you. Find which vaccines are available and book an appointment. "
+  },
+  {
+    "id": 4,
+    "name": "Another Project Here",
+    "technologies": "Project Technologies",
+    "image": "#",
+    "blurb": "Project blurb fdaf fdasf dasf ejiaofjeal; ",
+    "repo": "#",
+    "deployed": "#",
+    "description": "Detailed project description goes here"
+  }
+]
