@@ -25,6 +25,9 @@ const useStyles = makeStyles((theme) => ({
   control: {
     padding: theme.spacing(2),
   },
+  card: {
+    width: 350,
+  },
   media: {
     height: 0,
     paddingTop: "56.25%",
@@ -53,23 +56,18 @@ export default function Projects(props) {
   return (
     <div>
       <Container>
-        {/* <Grid
-          item
-          container
-          direction="row"
-          className={classes.root}
-          spacing={2}
-        > */}
         <Grid item xs={12}>
           <Grid container display="flex" justify="center" spacing={8}>
             {data.map((value) => (
               <Grid key={value} item>
-                <Card className={classes.root}>
+                <Card className={classes.card}>
                   <CardHeader
                     title={value.name}
                     subheader={value.technologies}
                   />
                   <CardMedia
+                    square
+                    imageUrl={value.image}
                     className={classes.media}
                     image={value.image}
                     title="Project Title Here"
@@ -84,26 +82,34 @@ export default function Projects(props) {
                     </Typography>
                   </CardContent>
                   <CardActions disableSpacing>
-                    <Tooltip title="to github repository">
-                      <IconButton aria-label="to github repo">
+                    <Tooltip title="Github">
+                      <IconButton
+                        aria-label="to github repo"
+                        onClick={() => window.open(value.repo)}
+                      >
                         <GitHub />
                       </IconButton>
                     </Tooltip>
-                    <Tooltip title="to deployed site">
-                      <IconButton aria-label="to deployed">
+                    <Tooltip title="Deployed">
+                      <IconButton
+                        aria-label="to deployed"
+                        onClick={() => window.open(value.deployed)}
+                      >
                         <DoubleArrow />
                       </IconButton>
                     </Tooltip>
-                    <IconButton
-                      className={clsx(classes.expand, {
-                        [classes.expandOpen]: expanded,
-                      })}
-                      onClick={handleExpandClick}
-                      aria-expanded={expanded}
-                      aria-label="show more"
-                    >
-                      <ExpandMore />
-                    </IconButton>
+                    <Tooltip title="More">
+                      <IconButton
+                        className={clsx(classes.expand, {
+                          [classes.expandOpen]: expanded,
+                        })}
+                        onClick={handleExpandClick}
+                        aria-expanded={expanded}
+                        aria-label="show more"
+                      >
+                        <ExpandMore />
+                      </IconButton>
+                    </Tooltip>
                   </CardActions>
                   <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
@@ -116,7 +122,6 @@ export default function Projects(props) {
             ))}
           </Grid>
         </Grid>
-        {/* </Grid> */}
       </Container>
     </div>
   );

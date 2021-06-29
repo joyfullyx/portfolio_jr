@@ -19,7 +19,7 @@ export default function Contact() {
         </Tooltip>
 
         {/* To Github */}
-        <Tooltip title="GitHub">
+        <Tooltip title="Github">
           <IconButton
             onClick={() =>
               window.open("https://github.com/joyfullyx", "_blank")
@@ -30,7 +30,7 @@ export default function Contact() {
         </Tooltip>
 
         {/* To email */}
-        <Tooltip title="email">
+        <Tooltip title="Email">
           <a href="mailto:joyfullyx@gmail.com">
             <IconButton>
               <Email fontSize="large" />

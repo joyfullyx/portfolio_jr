@@ -2,41 +2,41 @@
   {
     "id": 1,
     "name": "Rally",
-    "technologies": "MERN, React, SQL, Geolocation",
-    "image": "#",
-    "blurb": "Rally is a centralized platform to plan and build trips",
-    "repo": "#",
-    "deployed": "#",
+    "technologies": "MERN, React, MySQL, Sequelize",
+    "image": "https://i.imgur.com/miYld3G.png",
+    "blurb": "Plan your next trip with Rally!",
+    "repo": "https://github.com/JoshTDesign/project-3",
+    "deployed": "https://rally-travel.herokuapp.com/",
     "description": "Plan a trip for yourself or with friends. Create multiple trips, itineraries, split costs, and find popular activites near your travel destination."
   },
   {
     "id": 2,
-    "name": "Oui Circle",
-    "technologies": "MongoDB, Geospatial location",
-    "image": "#",
-    "blurb": "Oui Circle is an online community bulletein",
-    "repo": "#",
-    "deployed": "#",
-    "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Oui Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"
+    "name": "Circle",
+    "technologies": "MySql, Sequelize, Handlebars, express",
+    "image": "https://i.imgur.com/Wr2eYwv.png",
+    "blurb": "Circle is an online community bulletein",
+    "repo": "https://github.com/joyfullyx/project-2",
+    "deployed": "http://oui-circle-app.herokuapp.com/",
+    "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"
   },
   {
     "id": 3,
     "name": "Vaccine Finder",
-    "technologies": "HTML, CSS, Geolocation",
-    "image": "#",
+    "technologies": "HTML, CSS, JavaScript, Geolocation",
+    "image": "https://i.imgur.com/rdriRYG.png",
     "blurb": "Find a Covid-19 vaccine administrator near you",
-    "repo": "#",
-    "deployed": "#",
+    "repo": "https://github.com/joyfullyx/project-covid",
+    "deployed": "https://igotyu.github.io/project-covid/",
     "description": "Use Vaccine Finder to find the nearest Covid-19 vaccine administrator near you. Find which vaccines are available and book an appointment. "
   },
   {
     "id": 4,
-    "name": "Another Project Here",
-    "technologies": "Project Technologies",
+    "name": "Title Here",
+    "technologies": "Technologies",
     "image": "#",
     "blurb": "Project blurb fdaf fdasf dasf ejiaofjeal; ",
     "repo": "#",
     "deployed": "#",
-    "description": "Detailed project description goes here"
+    "description": "Detailed description goes here"
   }
 ]

@@ -1,6 +1,5 @@
 import React from "react";
-import { Box } from "@material-ui/core";
-import { Container } from "@material-ui/core";
+import { Box, Container } from "@material-ui/core";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { teal } from "@material-ui/core/colors";
 
