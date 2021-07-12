@@ -113,7 +113,7 @@ export default function Projects(props) {
                   </CardActions>
                   <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
-                      <Typography paragraph>More Stuff:</Typography>
+                      <Typography paragraph> </Typography>
                       <Typography paragraph>{value.description}</Typography>
                     </CardContent>
                   </Collapse>

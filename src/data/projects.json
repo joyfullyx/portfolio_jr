@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Rally",
-    "technologies": "MERN, React, MySQL, Sequelize",
+    "technologies": "MERN, React, SQL, Sequelize",
     "image": "https://i.imgur.com/miYld3G.png",
     "blurb": "Plan your next trip with Rally!",
     "repo": "https://github.com/JoshTDesign/project-3",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Circle",
-    "technologies": "MySql, Sequelize, Handlebars, express",
+    "technologies": "Sequelize, Handlebars, Node.js, express",
     "image": "https://i.imgur.com/Wr2eYwv.png",
     "blurb": "Circle is an online community bulletein",
     "repo": "https://github.com/joyfullyx/project-2",
@@ -27,16 +27,6 @@
     "blurb": "Find a Covid-19 vaccine administrator near you",
     "repo": "https://github.com/joyfullyx/project-covid",
     "deployed": "https://igotyu.github.io/project-covid/",
-    "description": "Use Vaccine Finder to find the nearest Covid-19 vaccine administrator near you. Find which vaccines are available and book an appointment. "
-  },
-  {
-    "id": 4,
-    "name": "Title Here",
-    "technologies": "Technologies",
-    "image": "#",
-    "blurb": "Project blurb fdaf fdasf dasf ejiaofjeal; ",
-    "repo": "#",
-    "deployed": "#",
-    "description": "Detailed description goes here"
+    "description": "Use Vaccine Finder to find the nearest Covid-19 vaccine administrator near you. Find which vaccines are available and book an appointment for your first or second dose of the Covid-19 vaccine. "
   }
 ]
