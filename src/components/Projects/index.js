@@ -49,8 +49,9 @@ export default function Projects(props) {
 
   const classes = useStyles();
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
+  const handleExpandClick = (i) => {
+    // setExpanded(!expanded);
+    setExpanded(expanded === i ? -1 : i);
   };
 
   return (
@@ -58,7 +59,7 @@ export default function Projects(props) {
       <Container>
         <Grid item xs={12}>
           <Grid container display="flex" justify="center" spacing={8}>
-            {data.map((value) => (
+            {data.map((value, i) => (
               <Grid key={value} item>
                 <Card className={classes.card}>
                   <CardHeader
@@ -103,15 +104,15 @@ export default function Projects(props) {
                         className={clsx(classes.expand, {
                           [classes.expandOpen]: expanded,
                         })}
-                        onClick={handleExpandClick}
-                        aria-expanded={expanded}
+                        onClick={() => handleExpandClick(i)}
+                        aria-expanded={expanded === i}
                         aria-label="show more"
                       >
                         <ExpandMore />
                       </IconButton>
                     </Tooltip>
                   </CardActions>
-                  <Collapse in={expanded} timeout="auto" unmountOnExit>
+                  <Collapse in={expanded === i} timeout="auto" unmountOnExit>
                     <CardContent>
                       <Typography paragraph> </Typography>
                       <Typography paragraph>{value.description}</Typography>
