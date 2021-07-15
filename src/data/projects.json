@@ -14,7 +14,7 @@
     "name": "Circle",
     "technologies": "Sequelize, Handlebars, Node.js, express",
     "image": "https://i.imgur.com/Wr2eYwv.png",
-    "blurb": "Circle is an online community bulletein",
+    "blurb": "Circle is an online community bulletin",
     "repo": "https://github.com/joyfullyx/project-2",
     "deployed": "http://oui-circle-app.herokuapp.com/",
     "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"

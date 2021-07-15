@@ -112,12 +112,14 @@ export default function Projects(props) {
                       </IconButton>
                     </Tooltip>
                   </CardActions>
-                  <Collapse in={expanded === i} timeout="auto" unmountOnExit>
-                    <CardContent>
-                      <Typography paragraph> </Typography>
-                      <Typography paragraph>{value.description}</Typography>
-                    </CardContent>
-                  </Collapse>
+                  <Tooltip title="Less">
+                    <Collapse in={expanded === i} timeout="auto" unmountOnExit>
+                      <CardContent>
+                        <Typography paragraph> </Typography>
+                        <Typography paragraph>{value.description}</Typography>
+                      </CardContent>
+                    </Collapse>
+                  </Tooltip>
                 </Card>
               </Grid>
             ))}
