@@ -1,5 +1,4 @@
 import React from "react";
-import Intro from "../../components/Intro";
 import { Box, Container } from "@material-ui/core";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { teal } from "@material-ui/core/colors";
@@ -25,7 +24,6 @@ export default function Header() {
           py={16}
         >
           <h1>Hello!</h1>
-          {/* <Intro /> */}
         </Box>
       </Container>
     </div>
