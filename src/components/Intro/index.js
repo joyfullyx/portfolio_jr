@@ -45,9 +45,14 @@ export default function Intro() {
                 be complacent.
                 <br></br>
                 <br></br>
-                Take a look around and feel free to contact me through email or
-                connect on LinkedIn!
+                Take a look around and feel free to contact me through email at
+                joyfullyx@gmail.com or connect on LinkedIn!
               </p>
+              <br></br>
+              <br></br>
+              <hr></hr>
+              <br></br>
+              <br></br>
             </div>
           </Box>
         </Paper>
