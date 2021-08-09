@@ -30,6 +30,7 @@ export default function Intro() {
         <Paper elevation={0}>
           <Box display="flex" justifyContent="center" width="100%">
             <div className={classes.root}>
+              <h2>About</h2>
               <p>
                 Hey there! I'm Joy, a professional musician turned software
                 developer based in the greater Seattle area. I love a good
@@ -52,7 +53,7 @@ export default function Intro() {
               <br></br>
               <hr></hr>
               <br></br>
-              <br></br>
+              {/* <br></br> */}
             </div>
           </Box>
         </Paper>

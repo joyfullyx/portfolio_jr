@@ -19,8 +19,10 @@ import data from "../../data/projects.json";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    ...theme.typography.button,
     flexGrow: 1,
     maxWidth: 345,
+    padding: theme.spacing(2),
   },
   control: {
     padding: theme.spacing(2),
@@ -57,8 +59,11 @@ export default function Projects(props) {
   return (
     <div>
       <Container>
+        <div className={classes.root}>
+          <h2>Projects</h2>
+        </div>
         <Grid item xs={12}>
-          <Grid container display="flex" justify="center" spacing={8}>
+          <Grid container display="flex" justify="center" spacing={7}>
             {data.map((value, i) => (
               <Grid key={value} item>
                 <Card className={classes.card}>

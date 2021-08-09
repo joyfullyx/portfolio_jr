@@ -13,7 +13,6 @@ function App() {
         <Intro />
         <Projects />
         <br></br>
-        <br></br>
         <Contact />
       </Container>
     </div>
