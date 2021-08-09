@@ -23,7 +23,7 @@ export default function Header() {
           width="100%"
           py={16}
         >
-          <h1>Joy Rhee | Software developer</h1>
+          <h1>Joy Rhee | Software Developer</h1>
         </Box>
       </Container>
     </div>

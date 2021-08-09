@@ -1,7 +1,8 @@
 import React from "react";
+import Resume from "../../Resume/resume.pdf";
 import { Box, Tooltip } from "@material-ui/core";
 import { IconButton } from "@material-ui/core";
-import { LinkedIn, GitHub, Email } from "@material-ui/icons";
+import { LinkedIn, GitHub, Email, Description } from "@material-ui/icons";
 
 export default function Contact() {
   return (
@@ -34,6 +35,15 @@ export default function Contact() {
           <a href="mailto:joyfullyx@gmail.com">
             <IconButton>
               <Email fontSize="large" />
+            </IconButton>
+          </a>
+        </Tooltip>
+
+        {/* {To resume pdf} */}
+        <Tooltip title="Resume">
+          <a href={Resume} target="_blank">
+            <IconButton>
+              <Description fontSize="large" />
             </IconButton>
           </a>
         </Tooltip>

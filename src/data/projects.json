@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Rally",
-    "technologies": "MERN, React, SQL, Sequelize",
+    "technologies": "MERN, React, SQL, Sequelize, Mapbox",
     "image": "https://i.imgur.com/miYld3G.png",
     "blurb": "Plan your next trip with Rally!",
     "repo": "https://github.com/JoshTDesign/project-3",
