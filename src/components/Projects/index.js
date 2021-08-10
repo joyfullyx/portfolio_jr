@@ -64,6 +64,7 @@ export default function Projects(props) {
         </div>
         <Grid item xs={12}>
           <Grid container display="flex" justify="center" spacing={7}>
+            {/* map thru projects json */}
             {data.map((value, i) => (
               <Grid key={value} item>
                 <Card className={classes.card}>

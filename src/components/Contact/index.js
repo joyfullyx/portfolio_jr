@@ -1,11 +1,11 @@
 import React from "react";
 import Resume from "../../Resume/resume.pdf";
-import { makeStyles, createMuiTheme } from "@material-ui/core/styles";
+import "./style.css";
+import { makeStyles } from "@material-ui/core/styles";
 import { Box, Tooltip } from "@material-ui/core";
 import { Container } from "@material-ui/core";
 import { IconButton } from "@material-ui/core";
 import { LinkedIn, GitHub, Email, Description } from "@material-ui/icons";
-import { teal } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,14 +15,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: teal[100],
-    },
-  },
-});
-
 export default function Contact() {
   const classes = useStyles();
 
@@ -30,25 +22,37 @@ export default function Contact() {
     <div>
       <Container>
         <div className={classes.root}>
+          <br></br>
+          <br></br>
+          <hr></hr>
+          <br></br>
+          <br></br>
           <h2>Contact</h2>
-
           <ul>
             <li>
               Email:{" "}
               <a href="mailto:joyfullyx@gmail.com">joyfullyx@gmail.com</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/joy-rhee" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/joy-rhee"
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://github.com/joyfullyx" target="_blank">
+              <a
+                href="https://github.com/joyfullyx"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github
               </a>
             </li>
             <li>
-              <a href={Resume} target="_blank">
+              <a href={Resume} target="_blank" rel="noreferrer">
                 résumé
               </a>
             </li>
@@ -90,7 +94,7 @@ export default function Contact() {
 
           {/* {To resume pdf} */}
           <Tooltip title="Resume">
-            <a href={Resume} target="_blank">
+            <a href={Resume} target="_blank" rel="noreferrer">
               <IconButton>
                 <Description fontSize="large" />
               </IconButton>

@@ -2,8 +2,7 @@ import React from "react";
 import { Box } from "@material-ui/core";
 import { Container } from "@material-ui/core";
 import { Paper } from "@material-ui/core";
-import { makeStyles, createMuiTheme } from "@material-ui/core/styles";
-import { teal } from "@material-ui/core/colors";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -12,14 +11,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
   },
 }));
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: teal[100],
-    },
-  },
-});
 
 export default function Intro() {
   const classes = useStyles();
