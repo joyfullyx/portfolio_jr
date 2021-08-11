@@ -19,7 +19,7 @@ export default function Contact() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div id="contact">
       <Container>
         <div className={classes.root}>
           <br></br>

@@ -57,7 +57,7 @@ export default function Projects(props) {
   };
 
   return (
-    <div>
+    <div id="projects">
       <Container>
         <div className={classes.root}>
           <h2>Projects</h2>

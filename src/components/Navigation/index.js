@@ -1,6 +1,11 @@
 import React from "react";
+import "./style.css";
+import Intro from "../Intro";
+import Projects from "../Projects";
+import Contact from "../Contact";
 import { makeStyles } from "@material-ui/core/styles";
-import { Box, Link } from "@material-ui/core";
+import { Box } from "@material-ui/core";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,9 +21,15 @@ export default function Navigation() {
   return (
     <div className={classes.root}>
       <Box display="flex" flexDirection="row" justifyContent="space-around">
-        <Link p={1}>About</Link>
-        <Link p={1}>Projects</Link>
-        <Link p={1}>Contact</Link>
+        <Link p={1} to="intro" spy={true} smooth={true}>
+          About
+        </Link>
+        <Link p={1} to="projects" spy={true} smooth={true}>
+          Projects
+        </Link>
+        <Link p={1} to="contact" spy={true} smooth={true}>
+          Contact
+        </Link>
       </Box>
     </div>
   );

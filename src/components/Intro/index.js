@@ -16,7 +16,7 @@ export default function Intro() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div id="about">
       <Container>
         <Paper elevation={0}>
           <Box display="flex" justifyContent="center" width="100%">
