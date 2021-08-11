@@ -1,8 +1,5 @@
 import React from "react";
 import "./style.css";
-import Intro from "../Intro";
-import Projects from "../Projects";
-import Contact from "../Contact";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box } from "@material-ui/core";
 import { Link } from "react-scroll";

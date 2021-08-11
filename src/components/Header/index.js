@@ -13,7 +13,7 @@ const theme = createMuiTheme({
 
 export default function Header() {
   return (
-    <div>
+    <div id="header">
       <Container>
         <Box
           bgcolor={theme.palette.primary.main}

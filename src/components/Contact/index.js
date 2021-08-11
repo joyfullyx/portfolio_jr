@@ -6,6 +6,7 @@ import { Box, Tooltip } from "@material-ui/core";
 import { Container } from "@material-ui/core";
 import { IconButton } from "@material-ui/core";
 import { LinkedIn, GitHub, Email, Description } from "@material-ui/icons";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,37 +29,35 @@ export default function Contact() {
           <br></br>
           <br></br>
           <h2>Contact</h2>
-          <ul>
-            <li>
-              Email:{" "}
-              <a href="mailto:joyfullyx@gmail.com">joyfullyx@gmail.com</a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/joy-rhee"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/joyfullyx"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-            </li>
-            <li>
-              <a href={Resume} target="_blank" rel="noreferrer">
-                résumé
-              </a>
-            </li>
-          </ul>
+          <Box display="flex" flexDirection="row" justifyContent="space-around">
+            <a href="mailto:joyfullyx@gmail.com">joyfullyx@gmail.com</a>
+            <a
+              href="https://www.linkedin.com/in/joy-rhee"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/joyfullyx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a href={Resume} target="_blank" rel="noreferrer">
+              résumé
+            </a>
+          </Box>
         </div>
+        <br></br>
       </Container>
+      <Box display="flex" justifyContent="center">
+        <Link to="header" spy={true} smooth={true}>
+          To Top
+        </Link>
+      </Box>
+      <br></br>
       <div>
         <Box display="flex" justifyContent="center">
           {/* To LinkedIn */}
