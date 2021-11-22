@@ -11,6 +11,16 @@
   },
   {
     "id": 2,
+    "name": "Restaurant Search",
+    "technologies": "React Native",
+    "image": "https://i.imgur.com/kc6w4EZ.png",
+    "blurb": "Restaurant search application utilizing Yelp's API",
+    "repo": "https://github.com/joyfullyx/RestaurantSearch",
+    "deployed": "https://premier-golf-mock.herokuapp.com/",
+    "description": "A simple restaurant search mobile application catagorizing restaurants by price point ($, $$, $$$, $$$$) from Yelp's API for React Native practice."
+  },
+  {
+    "id": 3,
     "name": "Rally",
     "technologies": "MERN, React, SQL, Sequelize, Mapbox",
     "image": "https://i.imgur.com/miYld3G.png",
@@ -20,7 +30,7 @@
     "description": "Plan a trip for yourself or with friends. Create multiple trips, itineraries, split costs, and find popular activites near your travel destination."
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Circle",
     "technologies": "Sequelize, Handlebars, Node.js, express",
     "image": "https://i.imgur.com/Wr2eYwv.png",
@@ -30,7 +40,7 @@
     "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Vaccine Finder",
     "technologies": "HTML, CSS, JavaScript, Geolocation",
     "image": "https://i.imgur.com/rdriRYG.png",
