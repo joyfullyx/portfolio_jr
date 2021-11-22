@@ -24,9 +24,10 @@ export default function Intro() {
               <h2>About</h2>
               <p>
                 Hey there! I'm Joy, a professional musician turned software
-                developer based in the greater Seattle area. I love a good
-                challenge and getting hands on with building and creating
-                products that are simple, elegant, and beautiful.
+                developer with a passion for UI and front end development based
+                in the greater Seattle area. I love a good challenge and getting
+                hands on with building and creating products that are simple,
+                elegant, and beautiful.
                 <br></br>
                 <br></br>
                 Continous learning and problem solving are my driving force and

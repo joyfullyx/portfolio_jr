@@ -1,6 +1,16 @@
 [
   {
     "id": 1,
+    "name": "Premier Golf Centers",
+    "technologies": "React, Node, Express, Sequelize",
+    "image": "https://i.imgur.com/kc6w4EZ.png",
+    "blurb": "Facelift for Premier Golf Centers Home Page",
+    "repo": "https://github.com/joyfullyx/premier-golf-mock",
+    "deployed": "https://premier-golf-mock.herokuapp.com/",
+    "description": "This was a personal project that I took on to improve the design and UI of a website that I frequently use, but hate using for its outdated styling and difficulty to navigate to access what I needed. I worked closely with a UX Designer, collaboratively using Figma, in order to redesign the site in a way that is efficient and easy for users."
+  },
+  {
+    "id": 2,
     "name": "Rally",
     "technologies": "MERN, React, SQL, Sequelize, Mapbox",
     "image": "https://i.imgur.com/miYld3G.png",
@@ -10,7 +20,7 @@
     "description": "Plan a trip for yourself or with friends. Create multiple trips, itineraries, split costs, and find popular activites near your travel destination."
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Circle",
     "technologies": "Sequelize, Handlebars, Node.js, express",
     "image": "https://i.imgur.com/Wr2eYwv.png",
@@ -20,7 +30,7 @@
     "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Vaccine Finder",
     "technologies": "HTML, CSS, JavaScript, Geolocation",
     "image": "https://i.imgur.com/rdriRYG.png",
