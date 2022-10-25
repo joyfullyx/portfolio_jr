@@ -7,7 +7,7 @@
     "blurb": "Facelift for Premier Golf Centers Home Page",
     "repo": "https://github.com/joyfullyx/premier-golf-mock",
     "deployed": "https://premier-golf-mock.herokuapp.com/",
-    "description": "This was a personal project that I took on to improve the design and UI of a website that I frequently use, but hate using for its outdated styling and difficulty to navigate to access what I needed. I worked closely with a UX Designer, collaboratively using Figma, in order to redesign the site in a way that is efficient and easy for users."
+    "description": "This was a personal project that I took on to improve the design and UI of a website that I frequently visit. I found it frustrating to use for its outdated styling and difficulty to navigate across the application in order to fulfill my needs. I worked closely with a UX Designer, collaboratively using Figma to build wireframes and flow in order to redesign the application for optimal use."
   },
   {
     "id": 2,
@@ -37,7 +37,7 @@
     "blurb": "Circle is an online community bulletin",
     "repo": "https://github.com/joyfullyx/project-2",
     "deployed": "http://oui-circle-app.herokuapp.com/",
-    "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better!"
+    "description": "Want to host a community event? Need volunteers or donations for the neighborhood community center? Circle provides a place to enrich and provide further betterment of your community, and get to know your neighbors better."
   },
   {
     "id": 5,

@@ -1,8 +1,8 @@
-import React from "react";
-import { Box } from "@material-ui/core";
-import { Container } from "@material-ui/core";
-import { Paper } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import React from 'react';
+import { Box } from '@material-ui/core';
+import { Container } from '@material-ui/core';
+import { Paper } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,18 +16,21 @@ export default function Intro() {
   const classes = useStyles();
 
   return (
-    <div id="about">
+    <div id='about'>
       <Container>
         <Paper elevation={0}>
-          <Box display="flex" justifyContent="center" width="100%">
+          <Box display='flex' justifyContent='center' width='100%'>
             <div className={classes.root}>
               <h2>About</h2>
               <p>
                 Hey there! I'm Joy, a professional musician turned software
-                developer with a passion for UI and front end development based
-                in the greater Seattle area. I love a good challenge and getting
-                hands on with building and creating products that are simple,
-                elegant, and beautiful.
+                developer in the greater Seattle area. I have a passion for
+                developing responsive features and applications utilizing
+                software for improving day to day tasks and enhancing
+                accessiblity that can contribute to making a societal impact in
+                all capacities. I love a good challenge and getting hands on
+                with building and creating products that are simple, elegant,
+                and beautiful.
                 <br></br>
                 <br></br>
                 Continous learning and problem solving are my driving force and
